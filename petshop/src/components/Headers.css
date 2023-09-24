@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 3rem;
+    width: 10rem;
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: grey;
+    list-style-type: none;
+}
+.header-menu>li>a{
+    list-style-type: none;
+}
+.header-menu>li{
+    cursor: pointer;
+    list-style: none;
+}
+.header-menu>li:hover{
+    color: blueviolet;
+}
